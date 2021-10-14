@@ -12,6 +12,9 @@
     <div class="container">
         <header class="header">
             <div class="container">
+                <div class="btn-menu">
+                    <label for="btn-menu">☰</label>
+                </div>
                 <div class="logo">
                     <h1>Geometria a la mano</h1>
                 </div>
@@ -20,7 +23,65 @@
                     <a href="#">Nosotros</a>
                 </nav>
             </div>
+            <div class="parrafo">
+                <h2>¿Qué es un Trinagulo?</h2>
+                <p>
+                    Un triángulo es una figura geométrica considerada como polígono de tres lados, tres ángulos y tres vértices que unen cada punto común de los lados.
+                </p>
+                <h2>Elementos de un Triangulo</h2>
+                •	Tres lados: Son los segmentos o líneas determinadas y se representan mediante letras minúsculas (a, b y c). <br>
+•	Tres ángulos: Son los ángulos internos que se forman por los lados del triángulo, se nombran con la letra mayúscula con respecto al lado opuesto al ángulo (A, B y C).<br>
+•	Tres vértices: Corresponden a los puntos de intersección del triángulo.
+
+                <h2>¿Cómo se calcula el área y perimetro de un Triangulo?</h2>
+                <p>
+                    Área = (b × a)/2 <br>
+                    Perímetro = a + b + h
+                </p>
+                <br>
+                <p>Calcular area y perimetro<br>
+                </p>
+                <form id="formulario">
+                   Base: <input type="text" name="nombre" value ="b"> metros.
+                   <br>
+                   Altura: <input type="text" name="nombre" value ="a"> metros.
+                   <br>  
+                   hipotenusa: <input type="text" name="nombre" value ="h"> metros.
+                   <br>  
+                        
+                         
+            </form>
+            <button onclick="mostarValores()">Calcular Area y Perimetro</button> <br>
+             <h2>Resultado</h2>
+               Area: <input type="text" name="respuesta" value="resultado">metros2.<br>
+               Perimetro: <input type="text" name="respuesta" value="resultado">metros.
+            </div>
+            
         </header>
         <div class="capa"></div>
+
+        <input type="checkbox" id="btn-menu">
+<div class="container-menu">
+	<div class="cont-menu">
+		
+		<nav>
+			<h3>Figuras 2d</h3>
+			<a href="Cuadrado.html">Cuadrado</a>
+			<a href="Triangulo.html">Triangulo</a>
+			<a href="Rectangulo.html">Rectangulo</a>
+			<a href="Circulo.html">Circulo</a>
+			<a href="Rombo.html">Rombo</a>
+			<h3>Figuras 3d</h3>
+			<a href="Cubo.html">Cubo</a>
+			<a href="Piramide.html">Piramide</a>
+			<a href="Cilindro.html">Cilndro</a>
+			<a href="Cono.html">Cono</a>
+			<a href="Esfera.html">Esfera</a>
+			
+		</nav>
+		</nav>
+		<label for="btn-menu">✖️</label>
+	</div>
+</div>
 </body>
 </html>
